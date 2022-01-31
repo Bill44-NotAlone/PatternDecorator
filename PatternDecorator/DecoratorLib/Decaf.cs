@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DecoratorLib
 {
-    public class DarkRoast : Beverage
+    public class Decaf : Beverage
     {
-        public DarkRoast()
+        public Decaf()
         {
-            description = "Коффе с темной обжаркой ";
-            payment = 200;
+            description = "Коффе без кофеина ";
+            payment = 100;
         }
         
         public new double Cost()

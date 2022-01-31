@@ -48,5 +48,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DecoratorLib\DecoratorLib.csproj">
+      <Project>{4c77a918-25ce-45ac-86be-8d9f28cf4294}</Project>
+      <Name>DecoratorLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

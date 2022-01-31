@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Beverage.cs" />
     <Compile Include="DarkRoast.cs" />
+    <Compile Include="Decaf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
