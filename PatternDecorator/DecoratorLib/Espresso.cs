@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace DecoratorLib
 {
-    public class Decaf : Beverage
+    public class Espresso : Beverage
     {
-        public Decaf()
+        public Espresso()
         {
-            description = "Кофе без кофеина ";
+            description = "Экспрессо ";
         }
         public override double Cost()
         {
-            return 1.05;
+            return 1.99;
         }
     }
 }

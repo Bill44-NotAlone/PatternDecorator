@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace DecoratorLib
 {
-    class HouseBlend
+    public class HouseBlend : Beverage
     {
+        public HouseBlend()
+        {
+            description = "Домашний кофе ";
+        }
+        public override double Cost()
+        {
+            return 0.89;
+        }
     }
 }

@@ -10,13 +10,11 @@ namespace DecoratorLib
     {
         public DarkRoast()
         {
-            description = "Коффе с темной обжаркой ";
-            payment = 200;
+            description = "Кофе с темной обжаркой";
         }
-        
-        public new double Cost()
+        public override double Cost()
         {
-            return base.Cost();
+            return 0.99;
         }
     }
 }
