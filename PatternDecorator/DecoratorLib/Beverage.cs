@@ -12,9 +12,6 @@ namespace DecoratorLib
         protected double payment;
         public abstract double Cost();
 
-        public string GetDescription()
-        {
-            return description;
-        }
+        public abstract string GetDescription();
     }
 }

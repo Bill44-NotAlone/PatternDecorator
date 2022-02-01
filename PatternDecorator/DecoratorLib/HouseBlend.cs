@@ -16,5 +16,9 @@ namespace DecoratorLib
         {
             return 0.89;
         }
+        public override string GetDescription()
+        {
+            return description;
+        }
     }
 }
